@@ -1,0 +1,35 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "https://localhost:44307/",
+      "sslPort": 44307
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "LOGFILE_DIAG": "c:\\users\\edahl\\source\\api_diag.txt",
+        "LOGFILE_USAGE": "c:\\users\\edahl\\source\\api_usage.txt",
+        "TODO_CONNSTR": "Data Source=(LocalDb)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\edahl\\Documents\\visual studio 2017\\Projects\\FloggingWeb\\TodoMvc\\App_Data\\TodoDataAccess.ToDoDbContext.mdf;Initial Catalog=ToDoDataAccess.ToDoDbContext;Integrated Security=True",
+        "LOGFILE_ERROR": "c:\\users\\edahl\\source\\api_error.txt",
+        "LOGFILE_PERF": "c:\\users\\edahl\\source\\api_perf.txt",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AUTHORITY": "https://demo.identityserver.io"
+      }
+    },
+    "CoreTodosAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:59051/"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.vs/
+CoreFlogger/obj/
+CoreTodosAPI/obj/
+CoreTodosMVC/bin/Debug/netcoreapp2.0/CoreTodosMVC.dll
+CoreTodosMVC/obj/
+CoreTodosMVC/bin/Debug/netcoreapp2.0/CoreFlogger.dll
+CoreTodosMVC/bin/
+CoreFlogger/bin/
