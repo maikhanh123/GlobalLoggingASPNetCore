@@ -23,6 +23,7 @@ namespace CoreTodosMVC.Controllers
                 .ToListAsync());
         }
 
+        [TrackUsage("ToDos", "Core MVC", "View IndexError")]
         public async System.Threading.Tasks.Task<IActionResult> IndexError()
         {
             return View("Index", await _db.ToDoItems

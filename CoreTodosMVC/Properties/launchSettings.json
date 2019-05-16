@@ -12,14 +12,14 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "LOGFILE_DIAG": "C:\\Users\\Mai Khanh\\sourceLog\\mvc_diag.txt",
+        "LOGFILE_DIAG": "C:\\Users\\Mai Khanh\\sourceLog\\mvc_diag.csv",
         "DIAGNOSTICS_ON": "true",
         "CLIENT_SECRET": "secret",
-        "LOGFILE_USAGE": "c:\\users\\edahl\\source\\mvc_usage.txt",
+        "LOGFILE_USAGE": "C:\\Users\\Mai Khanh\\sourceLog\\mvc_usage.csv",
         "TODO_CONNSTR": "Data Source=(LocalDb)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Mai Khanh\\sourceLog\\TodoDataAccess.ToDoDbContext.mdf;Initial Catalog=ToDoDataAccess.ToDoDbContext;Integrated Security=True",
         "CLIENT_ID": "server.hybrid",
-        "LOGFILE_ERROR": "c:\\users\\edahl\\source\\mvc_error.txt",
-        "LOGFILE_PERF": "c:\\users\\edahl\\source\\mvc_perf.txt",
+        "LOGFILE_ERROR": "C:\\Users\\Mai Khanh\\sourceLog\\mvc_error.csv",
+        "LOGFILE_PERF": "C:\\Users\\Mai Khanh\\sourceLog\\mvc_perf.csv",
         "ASPNETCORE_ENVIRONMENT": "Development",
         "AUTHORITY": "https://demo.identityserver.io/"
       }

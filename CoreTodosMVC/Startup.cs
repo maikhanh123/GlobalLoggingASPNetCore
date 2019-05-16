@@ -1,4 +1,5 @@
 ﻿using CoreFlogger;
+using CoreFlogger.Middleware;
 using CoreTodosMVC.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
@@ -62,17 +63,17 @@ namespace CoreTodosMVC
             app.UseAuthentication();
 
             // replace whole conditional with something like 
-            // app.UseCustomExceptionHandler("ToDos", "Core MVC", "/Home/Error");
-            //app.UseCustomExceptionHandler("ToDos", "Core MVC", "/Home/Error");
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseBrowserLink();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
+             //app.UseCustomExceptionHandler("ToDos", "Core MVC", "/Home/Error");
+            app.UseCustomExceptionHandler("ToDos", "Core MVC", "/Home/Error");
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //    app.UseBrowserLink();
+            //}
+            //else
+            //{
+            //    app.UseExceptionHandler("/Home/Error");
+            //}
 
             app.UseStaticFiles();            
 
